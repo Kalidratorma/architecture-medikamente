@@ -1,0 +1,121 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram id="ishikawa" name="Ishikawa — Migration Risks">
+    <mxGraphModel dx="2084" dy="1255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2100" pageHeight="1485" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;Диаграмма Исикавы&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=top;fontSize=22;fontStyle=1;fontColor=#222222;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" value="Цель: выявить причины, мешающие миграции на целевую архитектуру (MVP → 1 год)" style="text;html=1;align=left;verticalAlign=top;fontSize=14;fontColor=#555555;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="head" value="&lt;b&gt;УЗКИЕ МЕСТА&lt;br&gt;ПРИ МИГРАЦИИ&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="370" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_0" value="&lt;b&gt;Инфраструктура&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2A5AB4;fontColor=#2A5AB4;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_1" value="&lt;b&gt;ПО / Архитектура&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2A5AB4;fontColor=#2A5AB4;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="40" y="730" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_2" value="&lt;b&gt;Данные и интеграции&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2E8B57;fontColor=#2E8B57;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_3" value="&lt;b&gt;Процессы&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2E8B57;fontColor=#2E8B57;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="730" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_4" value="&lt;b&gt;Персонал / Организация&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B06A2A;fontColor=#B06A2A;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_5" value="&lt;b&gt;Безопасность / Регуляторика&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B06A2A;fontColor=#B06A2A;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="760" y="730" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_6" value="&lt;b&gt;Операции / Наблюдаемость&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7A49A5;fontColor=#7A49A5;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="120" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cat_7" value="&lt;b&gt;Миграция / План&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#7A49A5;fontColor=#7A49A5;fillColor=none;align=center;" parent="1" vertex="1">
+          <mxGeometry x="400" y="730" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="head">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="430" as="sourcePoint" />
+            <mxPoint x="970" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="970" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="430" as="sourcePoint" />
+            <mxPoint x="910" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="430" as="sourcePoint" />
+            <mxPoint x="1240" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="430" as="sourcePoint" />
+            <mxPoint x="1580" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="570" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="430" as="sourcePoint" />
+            <mxPoint x="920" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="430" as="sourcePoint" />
+            <mxPoint x="1240" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cat_3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1440" y="430" as="sourcePoint" />
+            <mxPoint x="1600" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-17" value="&lt;div&gt;Монолит, общие ресурсы — слабая изоляция&lt;/div&gt;&lt;div&gt;Нет API-контрактов, интеграции по файлам&lt;/div&gt;&lt;div&gt;Нет gateway / WAF / Rate Limit&lt;/div&gt;&lt;div&gt;Нет очередей / шины событий&lt;/div&gt;&lt;div&gt;Нет SSO / RBAC / ABAC&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190.00129976786715" y="569.9987063247321" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-18" value="&lt;div&gt;Параллельный учёт (двойные записи) при переходе&lt;/div&gt;&lt;div&gt;Cut-over не определён&lt;/div&gt;&lt;div&gt;Несовместимость форматов данных&lt;/div&gt;&lt;div&gt;Риски производительности при росте ×5&lt;/div&gt;&lt;div&gt;Нет пилотов для оценки сроков / стоимости&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550.0012997678671" y="569.9987063247322" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-19" value="&lt;div&gt;Риски несоответствия ФЗ-152, GDPR/HIPAA&lt;/div&gt;&lt;div&gt;Нет DLP / маскирования ПДн&lt;/div&gt;&lt;div&gt;Нет KMS / управления ключами&lt;/div&gt;&lt;div&gt;Нет аудита и реагирования на инциденты&lt;/div&gt;&lt;div&gt;Нет модели угроз / рисков&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="909.8412997678672" y="569.9987063247322" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-20" value="&lt;div&gt;Ручные операции и дубли в Excel&lt;/div&gt;&lt;div&gt;Нет плана миграции / отката&lt;/div&gt;&lt;div&gt;Нет CI/CD и тестов&lt;/div&gt;&lt;div&gt;Релизы без регламентов&lt;/div&gt;&lt;div&gt;Неопределённые SLA / SLO&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1270.001299767867" y="569.9987063247321" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-22" value="&lt;div&gt;Единый физический сервер (SPOF)&lt;/div&gt;&lt;div&gt;1С в файловом режиме (I/O узкое горлышко)&lt;/div&gt;&lt;div&gt;Перегруженная офисная сеть (ККМ, почта, файлы)&lt;/div&gt;&lt;div&gt;Нет резервирования питания/сети&lt;/div&gt;&lt;div&gt;Нет отдельных сред: dev/stage/prod&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190.00129976786715" y="299.9987063247321" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-23" value="&lt;div&gt;Нет централизованных логов / метрик / трейсов&lt;/div&gt;&lt;div&gt;Нет алертов на доступ к ПДн&lt;/div&gt;&lt;div&gt;Бэкапы не проверяются регулярно&lt;/div&gt;&lt;div&gt;Нет DR / BCP&lt;/div&gt;&lt;div&gt;Нет нагрузочного / capacity-тестирования&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="550.0012997678671" y="299.9987063247322" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-24" value="&lt;div&gt;Нет минимизации привилегий&lt;/div&gt;&lt;div&gt;Низкая зрелость DevSecOps&lt;/div&gt;&lt;div&gt;Нехватка экспертов (K8s / DB / Sec)&lt;/div&gt;&lt;div&gt;Зависимость от ключевых людей&lt;/div&gt;&lt;div&gt;Обучение по ПДн нерегулярно&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="909.8412997678672" y="299.9987063247322" as="geometry" />
+        </mxCell>
+        <mxCell id="Ym9Cnj9x2ZbWBf5sCOpd-25" value="&lt;div&gt;Excel/JPG/PDF на общем диске, без аудита&lt;/div&gt;&lt;div&gt;Нет шифрования at rest / in transit&lt;/div&gt;&lt;div&gt;Нет тегирования / линейки (Data Catalog)&lt;/div&gt;&lt;div&gt;Лаборатория без HL7/FHIR API&lt;/div&gt;&lt;div&gt;Платежи без токенизации&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1270.001299767867" y="299.9987063247321" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
